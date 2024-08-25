@@ -161,7 +161,7 @@ Camera:
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 1
+  m_FOVAxisMode: 0
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 16
@@ -194,7 +194,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 2134599136}
   - component: {fileID: 2134599135}
   - component: {fileID: 2134599139}
+  - component: {fileID: 2134599140}
   m_Layer: 0
   m_Name: Character_Demo
   m_TagString: Untagged
@@ -562,6 +563,24 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 2
+--- !u!114 &2134599140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134599134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ed4d75266855b479237ef609cf74a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Characters: []
+  Max_Left: -5
+  Max_Right: 5
+  Movement_Speed: 10
+  rb: {fileID: 0}
+  MainCamera: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

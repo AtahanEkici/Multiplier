@@ -12,7 +12,7 @@ public class Road_Controller : MonoBehaviour
         {
             if (Optimization_Is_Enabled)
             {
-                Debug.Log(gameObject + " Became invisible to the camera");
+                //Debug.Log(gameObject + " Became invisible to the camera");
                 Destroy(gameObject, 1.0f);
             }
         }
