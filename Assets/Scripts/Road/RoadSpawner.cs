@@ -99,7 +99,7 @@ public class RoadSpawner : MonoBehaviour
     {
         return Road.transform.GetChild(0).transform;
     }
-
+    /*
     private GameObject[] GetAllChildObjects(Transform parent)
     {
         GameObject[] childObjects = new GameObject[parent.childCount];
@@ -111,4 +111,5 @@ public class RoadSpawner : MonoBehaviour
 
         return childObjects;
     }
+    */
 }
